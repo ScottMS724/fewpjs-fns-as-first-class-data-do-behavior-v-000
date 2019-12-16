@@ -9,7 +9,9 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-function greet(timeString)
+function greet(timeString) {
+  let timeArray = timeString.split()
+}
 
 
 
