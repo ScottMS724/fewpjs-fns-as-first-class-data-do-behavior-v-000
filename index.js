@@ -10,7 +10,10 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(timeString) {
-  let timeArray = timeString.split()
+  let timeArray = timeString.split();
+    if (timeArray[0] < 12)
+      return "Good Morning"
+    elsif (timeArray[0] )
 }
 
 
