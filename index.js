@@ -12,8 +12,11 @@ function handleClick(e) {
 function greet(timeString) {
   let timeArray = timeString.split();
     if (timeArray[0] < 12)
-      return "Good Morning"
-    elsif (timeArray[0] )
+      return "Good Morning";
+    elsif (timeArray[0] == 12 || 13 || 14 || 15 || 16 || 17);
+      return "Good Afternoon";
+    elsif (timeArray[0] > 17);
+      return "Good Evening";
 }
 
 
